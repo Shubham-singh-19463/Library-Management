@@ -119,25 +119,3 @@ class Library:
         print(status)
 
             
-
-#
-Central_library = Library()
-
-Central_library.add_books("ri", "gu zhen ru")
-Central_library.add_books("ri2", "gu zhen ru")
-Central_library.add_books("gerl", "gu zhen ru")
-Central_library.register_member("sohan")
-Central_library.register_member("mohan")
-Central_library.register_member("rohan")
-Central_library.Search_members("rohan")
-
-
-
-Central_library.Search_books("ri")
-Central_library.Borrow_books(1, 2)
-Central_library.display_books()
-Central_library.display_members()
-Central_library.Borrow_books( 1, 1)
-Central_library.display_books()
-Central_library.return_books( 1, 1)
-Central_library.display_books()
